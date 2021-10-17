@@ -1,0 +1,11 @@
+package frameworkEnums;
+
+public enum ConfigProperties {
+	
+	APPURL,
+	BROWSER,
+	SCREENSHOTFORPASSEDSTEPS,
+	RETRYFAILEDTESTCASES,
+	LOGSTEPSINCONSOLE
+
+}

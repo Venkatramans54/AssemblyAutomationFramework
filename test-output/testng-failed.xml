@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MobileTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.MasterListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="platform" value="mobile"/>
+    <classes>
+      <class name="tests.MobileViewTests">
+        <methods>
+          <include name="methodSetup"/>
+          <include name="methodTearDown"/>
+          <include name="Intercom_Test"/>
+          <include name="BookDemo_Test"/>
+          <include name="FeaturedCategory_Test"/>
+        </methods>
+      </class> <!-- tests.MobileViewTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MobileTestSuite] -->
