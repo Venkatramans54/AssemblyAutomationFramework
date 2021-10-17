@@ -35,4 +35,9 @@ This Framework is developed to automate a few uses in Assembly Application.\
 ```bash
 cd AssemblyAutomation
 mvn clean test -DsuiteName=WebTestSuite.xml
-`
+```
+
+## Documents
+
+You can Find Execution Recordings and Framework Document in the following Link.\
+[Execution Videos and Framework Document](https://drive.google.com/drive/folders/1teBpxLf4FoPMcklOwSsnfQpEXM_d8_yL?
